@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" 
-  xmlns:gap="http://phonegap.com/ns/1.0" 
-  id="com.phone.com.frances" 
-  version="1.0.0">
-  <name>frances</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+    xmlns:gap="http://phonegap.com/ns/1.0" 
+           id="com.phone.com.try-audio" 
+      version="1.0.0">
+    <name>try audio</name>
+    <description>Hello World sample application that responds to the deviceready event.</description>
+    <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
 
-  <!-- Use to get device information, not required -->
-  <plugin name="cordova-plugin-device"         source="npm" spec="1.0.1" />
-  <!-- plays audio -->
-  <plugin name="cordova-plugin-media"          source="npm" spec="1.0.1" />
-  <!-- checks the network connection, not required -->
-  <plugin name="cordova-plugin-network-information" source="npm" spec="1.0.1" />
-  <!-- REQUIRED TO MAKE NETWORK ACCESS -->
-  <plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
+    <!-- Use to get device information, not required -->
+    <plugin name="cordova-plugin-device"         source="npm" spec="1.0.1" />
+    <!-- plays audio -->
+    <plugin name="cordova-plugin-media"          source="npm" spec="1.0.1" />
+    <!-- checks the network connection, not required -->
+    <plugin name="cordova-plugin-network-information" source="npm" spec="1.0.1" />
+    <!-- REQUIRED TO MAKE NETWORK ACCESS -->
+    <plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
 
-  <!-- You have full access. YOUR APP IS NOW INSECURE -->
-  <allow-navigation href="*" />
-  <allow-intent href="*" />
-  <access origin="*" /> <!-- Required for iOS9 -->
+    <!-- You have full access. YOUR APP IS NOW INSECURE -->
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" /> <!-- Required for iOS9 -->
 </widget>
